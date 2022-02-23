@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'abnesregular';
+    src: url('assets/fonts/abnes-webfont.woff2') format('woff2'),
+        url('assets/fonts/abnes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    outline: none;
+    z-index: -1;
+}
+
+.content{
+    height: 100vh;
+}
+
+#hover-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 650px;
+    font-family: 'abnesregular';
+    color: white;
+}
